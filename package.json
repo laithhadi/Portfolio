@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A website that will feature all my projects and details about my education, work experience and skills",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laithhadi/Portfolio.git"
+  },
+  "author": "Laith Hadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laithhadi/Portfolio/issues"
+  },
+  "homepage": "https://github.com/laithhadi/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
