@@ -11,5 +11,6 @@ Technologies used:
 5. JQuery
 6. Nodemon
 7. Fontawesome
+8. Iconify
 
 TODO: add more, make it nicer
