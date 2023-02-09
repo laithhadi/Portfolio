@@ -43,5 +43,5 @@ export const router = async () => {
 
     // Render the view for that specific page
     const view = new match.route.view(getParams(match));
-    document.querySelector("#app").innerHTML = await view.getHTML();
+    document.querySelector("#content").innerHTML = await view.getHTML();
 };

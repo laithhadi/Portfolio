@@ -1,37 +1,113 @@
 body {
-    --nav-width: 200px;
-    margin: 0 0 0 var(--nav-width);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    background-color: #3F0D12;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
-.nav {
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: var(--nav-width);
-    height: 100vh;
-    background: #222222;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
 }
 
-.nav__link {
+.page-content,
+.button-wrap {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active,
+.button-wrap.active {
+    width: 100%;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #content,
+    .button-wrap {
+        width: 100%;
+        margin: 0;
+    }
+
+    #content.active,
+    .button-wrap.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+.social_links {
+    padding: 0;
+    margin: 0;
     display: block;
-    padding: 12px 18px;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social_links li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.social_links li a {
+    display: block;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #7c7777;
+}
+
+.social_links li a:hover,
+.social_links li a:focus {
     text-decoration: none;
-    color: #eeeeee;
-    font-weight: 500;
 }
 
-.nav__link:hover {
-    background: rgba(255, 255, 255, 0.05);
+.codewars a:hover {
+    color: #b94d39;
 }
 
-#app {
-    margin: 2em;
-    line-height: 1.5;
-    font-weight: 500;
+.linkedin a:hover {
+    color: #0077B5;
 }
 
-a {
-    color: #009579;
+.github a:hover {
+    color: #171515;
+}
+
+.fa-php {
+    color: #8993be;
 }
