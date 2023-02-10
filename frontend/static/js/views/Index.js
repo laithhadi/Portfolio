@@ -9,53 +9,58 @@ export default class extends AbstractView {
     async getHTML() {
         return `
         <h2 class="display-4 text-white">Portfolio</h2>
-        <p class="lead text-white mb-0">Hi! I am a full stack developer 
-            <a href="/contact" data-link class="link-info">
-                available for hire!
-            </a>
+        <p class="lead text-white mb-0">Hi! I am an aspiring web developer available for hire!
         </p>
         <div class="separator"></div>
-        <div class="row text-white">
-            <div class="col-12 col-md-4">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="bg-white p-5 rounded my-5 shadow-sm">
-                    <p class="lead font-italic mb-0 text-muted">"Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id
-                        est laborum."</p>
+        <div class="row">
+            <div class="col-xl-4 col-12 col-md-12 col-sm-12">
+                <div class="card bg-light mb-3">
+                    <img src="./static/img/confused.jpg" class="card-img-top">
+                    <div class="row no-gutters">
+                        <div class="col-md-12">
+                            <div class="card-body">
+                                <h5 class="card-title">Who am I?</h5>
+                                <p class="card-text">I am a skilled web developer with a passion 
+                                    for creating high-quality, user-friendly websites and applications
+                                </p>
+                                <a href="/about" data-link class="btn btn-dark">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="bg-white p-5 rounded my-5 shadow-sm">
-                    <p class="lead font-italic mb-0 text-muted">"Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id
-                        est laborum."</p>
+            <div class="col-xl-4 col-12 col-md-12 col-sm-12">
+                <div class="card bg-light mb-3">
+                    <img src="./static/img/skills.jpg" class="card-img-top">
+                    <div class="row no-gutters">
+                        <div class="col-md-12">
+                            <div class="card-body">
+                                <h5 class="card-title">Skills</h5>
+                                <p class="card-text">My expertise lies in the latest technologies, such as PHP, HTML, CSS, JavaScript,
+                                    and frameworks such as Laravel.
+                                </p>
+                                <a href="/projects" data-link class="btn btn-dark">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <img src="./static/img/author-homepage.jpg" class="homepage-img img-thumbnail img-fluid">
+            <div class="col-xl-4 col-12 col-md-12 col-sm-12">
+                <div class="card bg-light mb-3">
+                    <img src="./static/img/contact.jpg" class="card-img-top">
+                    <div class="row no-gutters">
+                        <div class="col-md-12">
+                            <div class="card-body">
+                                <h5 class="card-title">Get in touch</h5>
+                                <p class="card-text">My socials are located on the left side of the page.
+                                    If you would like to download my CV, click the button below.
+                                </p>
+                                <a href="/contact" data-link class="btn btn-dark">Contact me!</a>
+                                <a href="./static/LaithHadi.pdf" download="LaithHadi.pdf" class="btn btn-dark float-right">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row text-white">
@@ -65,10 +70,10 @@ export default class extends AbstractView {
                         <!-- Slides -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./static/img/test1.jpg" alt="Image 1">
+                                <img src="./static/img/kittyworld.jpg" alt="Kitty World Site">
                                 <div class="carousel-caption">
-                                    <h3>Image 1</h3>
-                                    <p>Image 1 description</p>
+                                    <h3>Kitty World Site</h3>
+                                    <p>A hobby website featuring my cat and cat breeds</p>
                                 </div>
                             </div>
                             <div class="carousel-item">

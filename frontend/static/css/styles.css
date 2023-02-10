@@ -65,7 +65,7 @@ body {
     right: 0;
     padding: 10px;
     position: absolute;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -104,6 +104,16 @@ body {
     margin: 0 auto;
 }
 
+.card {
+    height: 300px;
+    overflow: auto;
+}
+
+.card-img-top {
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+}
 
 @media (max-width: 768px) {
     #sidebar {
