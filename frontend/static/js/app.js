@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Using the history API to prevent page refresh
     $(document.body).on('click', function (e) {
         let target = e.target;
-        if (target.tagName === 'I') {
+        if (target.tagName === 'I' || target.tagName === 'IMG') {
             target = target.parentElement;
         }
         if (target.matches("[data-navigate]")) {

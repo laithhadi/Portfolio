@@ -63,6 +63,7 @@ export default class extends AbstractView {
                 </div>
             </div>
         </div>
+        <div class="separator"></div>
         <div class="row text-white">
             <div class="col-12">
                 <div class="carousel-container">
@@ -70,21 +71,55 @@ export default class extends AbstractView {
                         <!-- Slides -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./static/img/kittyworld.jpg" alt="Kitty World Site">
-                                <div class="carousel-caption">
-                                    <h3>Kitty World Site</h3>
-                                    <p>A hobby website featuring my cat and cat breeds</p>
+                                <img src="./static/img/kittyworld.png" alt="Kitty World Site">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h4>Kitty World Site</h4>
+                                            <p>A hobby website featuring my cat and cat breeds</p>
+                                            <a href="https://github.com/laithhadi/bootcamp"  target="_blank" class="btn btn-dark">
+                                                <i class="fa-brands fa-github data-navigate"></i> Repository
+                                            </a>
+                                            <a href="" target="_blank" class="btn btn-dark">Live code</a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h4>Technologies</h4>
+                                            <div class="row">
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>Javascript</li>
+                                                  </ul>
+                                                </div>
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>Bootstrap</li>
+                                                    <li>Bootstrap icons</li>
+                                                    <li>JQuery</li>
+                                                  </ul>
+                                                </div>
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>OOP</li>
+                                                    <li>SCSS</li>
+                                                    <li>Parcel</li>
+                                                  </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./static/img/author.jpg" alt="Image 2">
+                                <img src="./static/img/skills.jpg" alt="Image 2">
                                 <div class="carousel-caption">
                                     <h3>Image 2</h3>
                                     <p>Image 2 description</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./static/img/test2.jpg" alt="Image 3">
+                                <img src="./static/img/skills.jpg" alt="Image 3">
                                 <div class="carousel-caption">
                                     <h3>Image 3</h3>
                                     <p>Image 3 description</p>

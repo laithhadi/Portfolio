@@ -1,4 +1,5 @@
 import Index from "./views/Index.js";
+import About from "./views/About.js";
 import Projects from "./views/Projects.js";
 import ProjectView from "./views/ProjectView.js";
 import Contact from "./views/Contact.js";
@@ -9,6 +10,10 @@ export const router = async () => {
     const routes = [{
             path: "/",
             view: Index
+        },
+        {
+            path: "/about",
+            view: About
         },
         {
             path: "/projects",
