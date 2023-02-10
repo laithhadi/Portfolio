@@ -1,5 +1,5 @@
 # Portfolio
-This is a web portfolio that will feature all my projects and details about my education, work experience and skills
+This is a single page application web portfolio that will feature all my projects and details about my education, work experience and skills
 
 
 Technologies used: 
