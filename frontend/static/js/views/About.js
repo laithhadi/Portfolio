@@ -13,7 +13,7 @@ export default class extends AbstractView {
         <hr>
       <div class="row">
         <div class="col-md-3 col-sm-12">
-            <img src="./static/img/author-homepage.jpg" class="img-fluid rounded-circle mb-2">
+            <img src="./static/img/author-homepage.jpg" class="img-thumbnail shadow-sm img-fluid rounded-square mb-2">
         </div>
         <div class="col-md-9 col-sm-12">
           <div class="card mb-3">

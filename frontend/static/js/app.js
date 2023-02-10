@@ -11,6 +11,18 @@ const navigateTo = url => {
 window.addEventListener("popstate", router);
 
 document.addEventListener("DOMContentLoaded", () => {
+    // Contact page error handler
+    let form = document.getElementById("contactForm");
+
+    $("#sendMsg").click(function showAlert() {
+        if (form.checkValidity()) {
+            $("#success-alert").fadeTo(1000, 500).slideUp(500, function () {
+                $("#success-alert").slideUp(500);
+                form.reset();
+            });
+        }
+    });
+
     // Sidebar toggle behavior
     $('#sidebarCollapseBtn').on('click', function () {
         $('#sidebar, #content, .button-wrap, .column-wrap').toggleClass('active');

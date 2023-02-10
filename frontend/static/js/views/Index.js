@@ -112,17 +112,80 @@ export default class extends AbstractView {
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./static/img/skills.jpg" alt="Image 2">
+                                <img src="./static/img/jsquiz.png" alt="Cat Quiz">
                                 <div class="carousel-caption">
-                                    <h3>Image 2</h3>
-                                    <p>Image 2 description</p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h4>Javascript Quiz</h4>
+                                            <p>A single HTML page javascript quiz about cats that uses bootstrap
+                                               elements. Test your kknowledge about cats!</p>
+                                            <a href="https://github.com/laithhadi/jsquiz"  target="_blank" class="btn btn-dark">
+                                                <i class="fa-brands fa-github data-navigate"></i> Repository
+                                            </a>
+                                            <a href="https://laithhadi.github.io/jsquiz/" target="_blank" class="btn btn-dark">Live code</a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h4>Technologies</h4>
+                                            <div class="row">
+                                                <div class="col col-md-6">
+                                                  <ul>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>Javascript</li>
+                                                  </ul>
+                                                </div>
+                                                <div class="col col-md-6">
+                                                  <ul>
+                                                    <li>Bootstrap</li>
+                                                    <li>Bootstrap icons</li>
+                                                    <li>JQuery</li>
+                                                  </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./static/img/skills.jpg" alt="Image 3">
+                                <img src="./static/img/mobileapp.png" alt="Mobile booking application">
                                 <div class="carousel-caption">
-                                    <h3>Image 3</h3>
-                                    <p>Image 3 description</p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h4>Mobile Booking Application</h4>
+                                            <p>A native Android app that allows students to book university
+                                                resources such as laptops, meeting rooms, etc.</p>
+                                            <a href="https://github.com/laithhadi/bookingApplication"  target="_blank" class="btn btn-dark">
+                                                <i class="fa-brands fa-github data-navigate"></i> Repository
+                                            </a>
+                                            <a href="" target="_blank" class="btn btn-dark">Live code</a>
+                                        </div>
+                                        <div class="col-8">
+                                            <h4>Technologies</h4>
+                                            <div class="row">
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>XML</li>
+                                                    <li>Java</li>
+                                                    <li>PHP</li>
+                                                  </ul>
+                                                </div>
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>SQL</li>
+                                                    <li>MySQL icons</li>
+                                                    <li>OOP</li>
+                                                  </ul>
+                                                </div>
+                                                <div class="col col-md-4">
+                                                  <ul>
+                                                    <li>Native app</li>
+                                                    <li>External API Integration</li>
+                                                    <li>Gulp</li>
+                                                  </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
