@@ -1,12 +1,12 @@
 body {
-    background-color: #3F0D12;
+    background-color: #273043;
     min-height: 100vh;
     overflow-x: hidden;
 }
 
 .separator {
-    margin: 3rem 0;
-    border-bottom: 1px dashed #fff;
+    margin: 2rem 0;
+    border-bottom: 5px dashed #fff;
 }
 
 .text-gray {
@@ -41,6 +41,67 @@ body {
 .button-wrap.active {
     width: 100%;
     margin: 0;
+}
+
+/* Carousel Container */
+.carousel-container {
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Carousel Images */
+.carousel-item img {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(95, 94, 94, 0.829);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+/* Carousel Control Buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Carousel Control Prev Button */
+.carousel-control-prev:before {
+    content: '\f053';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* Carousel Control Next Button */
+.carousel-control-next:before {
+    content: '\f054';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.homepage-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -110,4 +171,16 @@ body {
 
 .fa-php {
     color: #8993be;
+}
+
+.fa-js {
+    color: #FFD600;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-java {
+    color: #5382a1;
 }

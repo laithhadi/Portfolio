@@ -8,8 +8,6 @@ const navigateTo = url => {
     router();
 };
 
-new WOW().init();
-
 window.addEventListener("popstate", router);
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -17,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     $('#sidebarCollapseBtn').on('click', function () {
         $('#sidebar, #content, .button-wrap, .column-wrap').toggleClass('active');
     });
+
     // Using the history API to prevent page refresh
     $(document.body).on('click', function (e) {
         let target = e.target;
