@@ -97,8 +97,7 @@ export default class extends AbstractView {
                                         <i class="ml-2 fa-brands fa-java fa-lg"></i>
                                     </h6>
                                     <p class="card-text">
-                                        A mobile app booking application created for Sheffield Hallam University
-                                        for dissertation.
+                                        A mobile app booking application created for Sheffield Hallam University.
                                     </p>
                                 </div>
                                 <div class="card-read-more">
@@ -130,8 +129,7 @@ export default class extends AbstractView {
                                         <i class="fa-brands fa-js fa-lg"></i>
                                     </h6>
                                     <p class="card-text">
-                                        An event listing website created using full-stack tools, features use of databases
-                                        and more!
+                                        An event listing website created using full-stack tools, features use of databases.
                                     </p>
                                 </div>
                                 <div class="card-read-more">
@@ -225,8 +223,7 @@ export default class extends AbstractView {
                                         <i class="ml-2 fa-brands fa-java fa-lg"></i>
                                     </h6>
                                     <p class="card-text">
-                                        A mobile app booking application created for Sheffield Hallam University
-                                        for dissertation.
+                                        A mobile app booking application created for Sheffield Hallam University.
                                     </p>
                                 </div>
                                 <div class="card-read-more">
@@ -258,8 +255,7 @@ export default class extends AbstractView {
                                         <i class="fa-brands fa-js fa-lg"></i>
                                     </h6>
                                     <p class="card-text">
-                                        An event listing website created using full-stack tools, features use of databases
-                                        and more!
+                                        An event listing website created using full-stack tools, features use of databases.
                                     </p>
                                 </div>
                                 <div class="card-read-more">
