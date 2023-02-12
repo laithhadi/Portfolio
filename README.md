@@ -13,4 +13,8 @@ Technologies used:
 7. Fontawesome
 8. Iconify
 
-TODO: add more, make it nicer
+Installation:
+
+1. clone the repo
+2. run npm install
+3. run npm start
